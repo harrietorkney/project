@@ -4,8 +4,8 @@ a {
 }
 
 .logo {
-  height:380px;
-  padding-top: 50px;
+  height:255px;
+  padding-top: 30px;
   background-color: green;
   background: linear-green(left, rgba (0,153,0,.2), rgba (0,153,0,1));
   background:-webkit-linear-gradient(left, rgba(0,153,0,.2), rgba(0,153,0,1));
