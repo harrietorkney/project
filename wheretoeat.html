@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery.js"></script>
+<link href='dist/css/bootstrap.css' rel='stylesheet'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<link rel='stylesheet' type='text/css' href='wheretoeat.css'>
+<link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<div class='logo'>
+	<img class='img-responsive' src='./images/vegfinalhopefully.png'>
+</div>	
+<div class='container'>
+<h1> Where to eat </h1>
+<a href='index.html'> <h2> Back to the homepage </h2> </a>
+<div class='row'>
+	<div class='col-md-6'>
+		<h1> Blue Moon Cafe </h1>
+		<div id="BlueMoonCafe">
+
+			<p><small> The Blue Moon Cafe is a specialist vegetarian and vegan cafe in the heart of Sheffield. Located at 2, St James Row, Blue Moon provides a counter service from a daily chalkboard menu. It was mentioned by the <a href='http://www.theguardian.com/travel/2010/jun/02/sheffield-top-10-budget-food'> Guardian </a> as one of the best cheaper eateries in the city! </small>
+
+			</p>
+			</div>
+		</div>
+	<div class='col-md-6'>
+
+		<h1> The Rude Shipyard </h1>
+			<div id="TheRudeShipyard">
+
+			<p><small> The Rude Shipyard is a quirky little cafe (and bookshop!) on Abbeydale Road. They offer a great range of vegetarian, vegan and gluten-free meals breakfasts, brunches and lunches. Popular veggie favourites include the mighty vegan breakfast and the sweet potato and mixed bean chilli bowl.
+
+			Check out their full menu <a href='http://therudeshipyard.com/food-drink/'>here.</a></small>
+
+			</p>
+			</div>
+		</div>
+	</div>
+
+<div class='row'>
+	<div class='col-md-6'>
+
+		<h1> Las Iguanas </h1>
+
+			<div id="lasIguanas">
+
+			<p> <small>Las Iguanas at West One serves a great variety of Latin American dishes with an extensive menu catering for vegetarians and vegans. Find anything from Mexican classics with a veggie twist to a delicious range of tapas dishes.
+
+			Check out their menu <a href= 'http://www.iguanas.co.uk/menus/las-iguanas-sheffield-veggie-menu.pdf'> here. </a></small>
+ 			</p>
+
+ 			</div>
+
+ 		</div>
+
+ 	<div class='col-md-6'>
+
+
+ 		<h1> Pure on Raw </h1>
+ 			<div id="PureOnRaw">
+
+ 			<p> <small>Pure on Raw cafe has a healthy and nutritious eating mantra at the heart of its menu. Hand made juices are available in an extensive variety along with juice cleanse programmes that can be tailored to suit your needs. Pure on Raw food is organic where possible, uncooked and unprocessed to retain as many nutrients as possible. Food choice ranges from brunch items to buckwheat pizzas and burgers.
+
+			Find their menu <a href='http://www.pureonraw.co.uk/resources/MENU%20MAIN%20ON%20TEMPLET%20update%201PDF.pdf'> here. </a></small>
+			</p>
+	
+
+			</div>
+		</div>
+	</div>
+
+	<div class='footer'> </div>
+</div>
+<script>
+
+$('#BlueMoonCafe').on('mouseover', function() {
+	$(this).toggleClass('show-description');
+});
+
+$('#BlueMoonCafe').on('mouseout', function() {
+	$(this).toggleClass('hide-description');
+})
+
+$('#TheRudeShipyard').on('mouseover', function() {
+	$(this).toggleClass('show-description');
+});
+$('#TheRudeShipyard').on('mouseout', function() {
+	$(this).toggleClass('hide-description');
+})
+
+$('#lasIguanas').on('mouseover', function() {
+	$(this).toggleClass('show-description');
+});
+
+$('#LasIguanas').on('mouseout', function() {
+	$(this).toggleClass('hide-description');
+});
+
+$('#PureOnRaw').on('mouseover', function() {
+	$(this).toggleClass('show-description');
+});
+
+$('#PureOnRaw').on('mouseout', function() {
+	$(this).toggleClass('hide-description');
+});
+
+
+</script>
+
+</body>
+</html>

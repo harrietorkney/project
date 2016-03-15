@@ -1,0 +1,40 @@
+
+.footer {
+	height:50px;
+} 
+#map{
+	width: 1500px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.logo {
+	height: 350px;
+	padding-top: 50px;
+	background-color: green;
+	background: linear-green(left, rgba (0,153,0,.2), rgba (0,153,0,1));
+ 	background:-webkit-linear-gradient(left, rgba(0,153,0,.2), rgba(0,153,0,1));
+ 	background:-moz-linear-gradient(left,rgba(0,153,0,.2), rgba(0,153,0,1));
+}
+body{
+	background:rgb(255,255,153);
+}
+h1{
+	text-align: center;
+	font-family: 'Londrina Shadow', cursive;
+	font-size:50px;
+	padding: 10px;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Londrina Shadow', cursive;
+	padding-bottom: 10px;
+}
+p{
+	padding: 30px;
+	font-family: 'Bree Serif', serif;
+	font-size: 20px;
+	text-align: center;
+
+}
