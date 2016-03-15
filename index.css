@@ -4,7 +4,7 @@ a {
 }
 
 .logo {
-  height:255px;
+  height:200px;
   padding-top: 30px;
   background-color: green;
   background: linear-green(left, rgba (0,153,0,.2), rgba (0,153,0,1));
