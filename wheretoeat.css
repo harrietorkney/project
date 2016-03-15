@@ -55,6 +55,7 @@ p{
 	-webkit-transition: height .5s;
 	-moz-transition: height .5s;
 	display: inline-block;
+	font-size: 20px;
 }
 small{
 	opacity:0;
