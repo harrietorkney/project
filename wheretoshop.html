@@ -14,9 +14,9 @@
 <body>
 
 <div class=logo>
-	<img class="img-responsive" src='./images/vegfinalhopefully.png'>
+	<img class="img-responsive" src='./images/vegfinalhopefully 260.png'>
 </div>
-
+<div class='container'>
 <h1> Where to Shop </h1>
 <a href='index.html'> <h2> Back to the homepage </h2> </a>
 <div class='row'>
@@ -72,6 +72,8 @@
 
         <div class='footer'></div>
 
+        </div>
+
 <script type="text/javascript">
  var markers = [
     	['Beanies', 53.3851604, -1.4936113],
@@ -111,10 +113,10 @@ for (i = 0; i < markers.length; i++) {
     //     title:"Beanies"
     // });  
  
-    var contentString = 'Come and check out <strong>Beanies</strong>!';
-    var infowindow = new google.maps.InfoWindow({
-        content: contentString
-    });
+    // var contentString = 'Come and check out <strong>Beanies</strong>!';
+    // var infowindow = new google.maps.InfoWindow({
+    //     content: contentString
+    // });
  
     google.maps.event.addListener(marker, 'click', function() {
       infowindow.open(map,marker);
