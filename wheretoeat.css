@@ -1,4 +1,6 @@
-
+.container {
+	width:1500px;
+}
 a {
 	text-decoration: none;
 }
